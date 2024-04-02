@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 
@@ -8,7 +10,7 @@ while (condition) {
     {
       type: "input",
       name: "task",
-      message: chalk.yellow("What task would you like to add?"),
+      message: chalk.yellow("What task would you like to add to Todo?"),
     },
     {
       type: "confirm",
