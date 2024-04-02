@@ -1,9 +1,10 @@
 {
-  "name": "project03_todo_list",
+  "name": "ehtisham_todo_list",
   "version": "1.0.0",
   "description": "A simple TODO list with Node.js, typeScript and Inquirer.",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
